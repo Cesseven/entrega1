@@ -1,0 +1,72 @@
+/* Estilo a nivel de etiqueta. en este caso para etiqueta body */ 
+body{
+    background: #E0D592;
+}
+
+/*color de la barra de navegacion*/ 
+.color-vino {
+  background-color: #800020;
+}
+
+/* Personalización de la barra de navegación */
+.navbar-letra {
+    font-size: 30px;
+    color: #f8f9fa;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+/* Estilo para la bienvenida */
+#titulo-bienvenida {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+  }
+  
+/* Estilo para los h1 */
+h1 {
+    font-size: 32px;
+    font-family: 'Inria Serif', sans-serif;
+    color: #333;
+  }
+  
+.imagenes-carrusel {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+  }  
+
+/* Cambiar forma de los contenedores*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+}  
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+}  
+
+/*Formulario*/
+.formulario-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  background-color:#f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+/* tamaño fotos cursos (Card)*/
+.fotos-cursos {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
